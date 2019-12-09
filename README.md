@@ -34,4 +34,15 @@ The AMERICA team consisted of the following members:
 
 For the development of software on the team, each member did not necessarily contribute to the writing/development of each piece of software. As such, the authors of the content of each subsystem are listed below:
 
-|Column 1|Column 2|
+|Subsystem|Author(s)|
+| --- | --- |
+|Astrodynamics|Johnathan Corbin|
+|Entry, Descent, and Landing|Jasmina Muftic|
+|Thermal Protection System|Daria Stifel|
+|Propulsion|Vish Gopalakrishnan|
+|Thermal Control System|Matthew Dromgoole|
+|Mechanical|Kevin Iott, Sierra Koch|
+|Communications|Steven Beninati|
+|Command and Data Handling|Will Parker|
+|Power|Vincent Putrino|
+|Cost|Vish Gopalakrishnan|

@@ -34,7 +34,6 @@ The AMERICA team consisted of the following members:
 
 For the development of software on the team, each member did not necessarily contribute to the writing/development of each piece of software. As such, the authors of the content of each subsystem are listed below:
 
-<center>
 |Subsystem|Author(s)|
 | --- | --- |
 |Astrodynamics|Johnathan Corbin|
@@ -47,4 +46,3 @@ For the development of software on the team, each member did not necessarily con
 |Command and Data Handling|Will Parker|
 |Power|Vincent Putrino|
 |Cost|Vish Gopalakrishnan|
-</center>

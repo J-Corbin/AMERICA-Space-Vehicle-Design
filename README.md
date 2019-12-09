@@ -53,11 +53,11 @@ Each file for software analysis was written by a different group member and as s
 |Subsystem|Main File|Purpose|
 | --- | --- | --- |
 |Astrodynamics|mars_astrodynamics.m|Computes the necessary information for performing a Mars transfer trajectory analysis. Creates porkchop plots of C3 and V_infty, plots transfer orbit for a given launch and arrival date, calculates the nearest solar conjunction with Earth and Mars, creates plots for arrival approaches at Mars, and can display values of the flight path angle of the vehicle as a function of periapsis of approach trajectory.|
-|Entry, Descent, and Landing| XXXX | XXXX |
+|Entry, Descent, and Landing| EDL_Entry_v2.m | Performs various calculations related to the atmospheric capture of the AMERICA vehicle and drag analysis. |
 |Thermal Protection System|TPS.m|Computes the various heating quantities brought about during entry into Mars' atmosphere for the dimensions of the AMERICA vehicle.|
 |Propulsion|PropulsiveDescent.m|Compute necessary thrust requirements for a powered descent of the AMERICA lander.|
-|Thermal Control System| XXXX | Computes maximum and minimum heating loads on the AMERICA spacecraft during its transfer to Mars.|
+|Thermal Control System| SVD_TCS.m | Computes maximum and minimum heating loads on the AMERICA spacecraft during its transfer to Mars.|
 |Mechanical|Main.m|Optimizes the design of the robotic arm to maximize amount of work area accessible to the arm.|
-|Command and Data Handling| XXXX | XXXX |
+|Command and Data Handling| Run_Comms_Access.m | Requires the NASA cspice packages for Matlab. Calculates positions of Mars' orbiters to determine communications access windows and uplink/downlink rates for each orbiter. |
 |Power|Power_Profiles.m|Creates a plot of the power usage over a 7 day cycle for the AMERICA lander during ground operations.|
 

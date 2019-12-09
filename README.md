@@ -46,3 +46,18 @@ For the development of software on the team, each member did not necessarily con
 |Command and Data Handling|Will Parker|
 |Power|Vincent Putrino|
 |Cost|Vish Gopalakrishnan|
+
+## Executables
+Each file for software analysis was written by a different group member and as such, have different degrees of documentation and syntax formatting. In order to execute the code written for each subsystem, it is important to know the "main" file or executable. These files and a summary of what they do are listed below. The remainder of the code files outside of this main executable are merely helper functions called upon in the main file.
+
+|Subsystem|Main File|Purpose|
+| --- | --- | --- |
+|Astrodynamics|mars_astrodynamics.m|Computes the necessary information for performing a Mars transfer trajectory analysis. Creates porkchop plots of C3 and V_infty, plots transfer orbit for a given launch and arrival date, calculates the nearest solar conjunction with Earth and Mars, creates plots for arrival approaches at Mars, and can display values of the flight path angle of the vehicle as a function of periapsis of approach trajectory.|
+|Entry, Descent, and Landing| XXXX | XXXX |
+|Thermal Protection System|TPS.m|Computes the various heating quantities brought about during entry into Mars' atmosphere for the dimensions of the AMERICA vehicle.|
+|Propulsion|PropulsiveDescent.m|Compute necessary thrust requirements for a powered descent of the AMERICA lander.|
+|Thermal Control System| XXXX | Computes maximum and minimum heating loads on the AMERICA spacecraft during its transfer to Mars.|
+|Mechanical|Main.m|Optimizes the design of the robotic arm to maximize amount of work area accessible to the arm.|
+|Command and Data Handling| XXXX | XXXX |
+|Power|Power_Profiles.m|Creates a plot of the power usage over a 7 day cycle for the AMERICA lander during ground operations.|
+

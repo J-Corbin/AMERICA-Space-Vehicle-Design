@@ -17,3 +17,21 @@ The repository is split into subfolders for each system of the spacecraft. These
 - Cost
 
 **Note:** This list of subsystems is not a comprehensive list of every subsystem. These are merely the subsystems that required computer aid for their design/development.
+
+## Authors/Ownership
+The AMERICA team consisted of the following members:
+- Steven Beninati
+- Aidan Clements
+- Johnathan Corbin
+- Matthew Dromgoole 
+- Vish Gopalakrishnan
+- Kevin Iott
+- Sierra Koch
+- Jasmina Muftic
+- Will Parker
+- Vincent Putrino 
+- Daria Stifle
+
+For the development of software on the team, each member did not necessarily contribute to the writing/development of each piece of software. As such, the authors of the content of each subsystem are listed below:
+
+|Column 1|Column 2|
